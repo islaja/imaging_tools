@@ -23,8 +23,7 @@ function compute_percent_sign_voxels_per_region(niak_path, outputs_path, output_
 %  representing the obtained percentage of significant voxels
 %%
     addpath(genpath(niak_path));
-    %addpath(genpath('/home/cic/lajisa/vandalab/niak'));
-
+    
     function [ROI_nb_voxels, nb_sign_voxels, perc_sign_vox, mean_tval] = compute_ROI_sign_voxel(p_mask, roi_mask, sign_tmaps)
     % This function compute percent of significant voxels for a specific region
     % Inputs:
